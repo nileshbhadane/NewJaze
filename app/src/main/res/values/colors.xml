@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="next_btn_bg">#b68b40</color>
+    <color name="bg_start_clr">#ffffff</color>
+    <color name="bg_end_clr">#ebebeb</color>
+    <color name="text_clr">#989898</color>
+    <color name="editText_clr">#888888</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="title_bg_clr">#e4e4e4</color>
+    <color name="title_txt_clr">#3f4041</color>
+    <color name="addClassandaddteam">#bfbfbf</color>
+    <color name="profile_text_color">#bfbfbf</color>
+    <color name="text_pro">#cecece</color>
+    <color name="dast1st_plus_min_bg">#3f4041</color>
+    <color name="dash_field_bg_color">#b8b8b8</color>
+    <color name="stroke_border_clr">#8d8d8d</color>
+    <color name="reavelscreen_titles_bg">#b4b4b4</color>
+    <color name="black">#000000</color>
+    <color name="performance_green_clr">#0fdb4c</color>
+    <color name="performance_red_clr">#b68b40</color>
+    <color name="performance_yellow_clr">#badd4c</color>
+    <color name="dash3_slide_btn_unselected">#b68b40</color>
+    <color name="dash3_slide_btn_selected">#b68b40</color>
+    <color name="unselected_area_of_interest">#d2d2d2</color>
+    <color name="unselect_launcher_btn">#b68b40</color>
+    <color name="selected_lancher_btn">#b68b40</color>
+    <color name="timetext">#4D000000</color>
+    <color name="classcolor">#80ffffff</color>
+    <color name="transblack">#B3000000</color>
+    <color name="statistical_color">#565E68</color>
+    <color name="blackrans">#26000000</color>
+    <color name="search_bg_color">#dfdfdf</color>
+    <color name="btn_gray_colr">#B3000000</color>
+  <color name="btn_colr">#FBEC5D</color>
+   <color name="white">#ffffff</color>
+    <color name="Tabback">#fb905d</color>
+    <color name="mygrey" >#D3D3D3</color>
+    <color name="Dynamin_layout_images" >#DBE6EB</color>
+    <color name="primary">#795548</color>
+    <color name="primary_dark">#5D4037</color>
+    <color name="oranage">#ff6c2c</color>
+    <color name="Theame_Color">#DCE7ED</color>
+    <color name="cpb_grey">#ffdedede</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_blue_dark">#ff00719b</color>
+    <color name="cpb_red">#ffff4444</color>
+    <color name="cpb_red_dark">#ffcd3a3a</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_green_dark">#ff6d9b00</color>
+    <color name="cpb_white">@android:color/white</color>
+    <color name="voilet">#ff794e9b</color>
+    <color name="red">#ff0000</color>
+
+</resources>

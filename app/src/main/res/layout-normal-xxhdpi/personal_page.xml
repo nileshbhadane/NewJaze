@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/unselect_launcher_btn"
+    android:focusable="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/select_source"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="@string/photo_library"
+        android:id="@+id/button_photo_library"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/alertdialog_button_shape_white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="@string/camera"
+        android:id="@+id/button2_camera"
+        android:layout_below="@+id/button_photo_library"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/alertdialog_button_shape_white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/button_delete"
+        android:text="@string/Account_setimg"
+
+        android:layout_below="@+id/button2_camera"
+        android:background="@color/bg_end_clr"
+        android:textSize="15sp"
+        android:textColor="@color/next_btn_bg" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/button_logout"
+        android:text="@string/Logout"
+
+        android:layout_below="@+id/button_delete"
+        android:background="@color/bg_end_clr"
+        android:textSize="15sp"
+        android:textColor="@color/next_btn_bg" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="@android:string/cancel"
+        android:id="@+id/button3_cancel"
+        android:layout_below="@+id/button_logout"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/alertdialog_button_shape_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/button3_cancel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp" />
+
+</RelativeLayout>
